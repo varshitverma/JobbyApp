@@ -57,7 +57,7 @@ class jobDetailsRoute extends Component {
           description: fetchedData.job_details.life_at_company.description,
           imageUrl: fetchedData.job_details.life_at_company.image_url,
         },
-        location: fetchedData.job_details.location,
+        location: fetchedData.job_details.location, 
         packagePerAnnum: fetchedData.job_details.package_per_annum,
         rating: fetchedData.job_details.rating,
         similarJobs: fetchedData.similar_jobs.map(eachJob => ({
