@@ -172,7 +172,7 @@ class jobDetailsRoute extends Component {
                   alt={eachSkill.name}
                   className="skill-image"
                 />
-                <p className="skill-name">{eachSkill.name}</p>
+                <p className="skill-name">{eachSkill.name}</p> 
               </li>
             ))}
           </ul>
