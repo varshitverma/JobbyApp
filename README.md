@@ -3,7 +3,6 @@ In this project, Built a **Jobby App** by applying the concepts learned till now
 ### Refer to videos below:
 **<a href="https://assets.ccbp.in/frontend/content/react-js/jobby-app-success-output-v0.mp4" target="_Blank">Demo Video</a>** <br/>
 <a href="https://assets.ccbp.in/frontend/content/react-js/jobby-app-failure-output-v0.mp4">Demo Video of Failure Aspects</a>
-[go](https://assets.ccbp.in/frontend/content/react-js/jobby-app-success-output-v0.mp4){:target="_blank"}
 
 <div style="text-align: center;">
   <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
