@@ -1,0 +1,255 @@
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.jobs-responsive-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .jobs-responsive-container {
+    flex-direction: row;
+  }
+}
+.mobile-search-input-container {
+  margin-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .mobile-search-input-container {
+    display: none;
+    margin: 0px;
+  }
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #64748b;
+  border-radius: 2px;
+  height: 30px;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    height: 40px;
+  }
+}
+.search-input {
+  flex-grow: 1;
+  color: #f8fafc;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .search-input {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 18px;
+  }
+}
+.search-btn {
+  background-color: #202020;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100%;
+  margin: 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 15px;
+  height: 15px;
+  color: #f8fafc;
+}
+
+.horizontal-line {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 3px;
+  background-color: #475569;
+  border-radius: 10px;
+  border: none;
+}
+.desktop-search-input-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .desktop-search-input-container {
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    margin: 0px;
+  }
+}
+.job-list-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .Jobs-list-container {
+    margin-left: 35px;
+    width: 100%;
+    max-width: 950px;
+  }
+}
+.jobs-list-items {
+  padding: 0px;
+}
+
+.profile-and-filters-container {
+  min-width: 250px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-and-filters-container {
+    max-width: 280px;
+    margin-left: 35px;
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.jobs-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-data-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 24px;
+}
+
+.no-data-found-img {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-data-found-img {
+    width: 455px;
+  }
+}
+
+.no-data-found-heading {
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 1.5;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-data-found-heading {
+    font-size: 36px;
+  }
+}
+
+.no-data-found-description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-data-found-description {
+    font-size: 16px;
+  }
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-img {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-img {
+    width: 450px;
+  }
+}
+
+.failure-view-heading {
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 1.5;
+  text-align: center;
+  margin: 0px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-heading {
+    font-size: 36px;
+  }
+}
+
+.failure-view-description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-description {
+    font-size: 16px;
+  }
+}
+
+.retry-button {
+  color: #ffffff;
+  background-color: #4f46e5;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 1.6;
+  border: none;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-right: 32px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  outline: none;
+  cursor: pointer;
+}

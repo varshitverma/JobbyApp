@@ -1,0 +1,53 @@
+.horizontal-line {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 3px;
+  background-color: #475569;
+  border-radius: 10px;
+  border: none;
+}
+
+.filter-type-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+@media screen and (min-width: 768px) {
+  .filter-type-heading {
+    font-size: 18px;
+  }
+}
+.list-items-container {
+  padding: 0px;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.checkbox-input {
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+}
+.radio-input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.label-text {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .label-text {
+    font-size: 14px;
+  }
+}

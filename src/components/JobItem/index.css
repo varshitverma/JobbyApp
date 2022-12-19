@@ -1,0 +1,240 @@
+.job-item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 16px;
+  background-color: #272727;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02);
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .job-item {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
+.job-company-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .job-company-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+  }
+}
+
+.company-logo-and-heading-container {
+  display: flex;
+}
+
+.company-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .company-heading {
+    font-size: 20px;
+  }
+}
+.company-heading-and-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .star-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.rating-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .rating-text {
+    font-size: 16px;
+  }
+}
+
+.location-and-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .location-and-package-container {
+    margin-top: 20px;
+  }
+}
+
+.location-and-employment-type-container {
+  display: flex;
+  align-items: center;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .location-container {
+    margin-right: 12px;
+  }
+}
+
+.location-icon {
+  color: #f8fafc;
+  width: 14px;
+  height: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .location-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+}
+
+.location-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 0px;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .location-text {
+    font-size: 14px;
+  }
+}
+
+.employment-type-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.employment-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .employment-text {
+    font-size: 14px;
+  }
+}
+
+.briefcase-icon {
+  color: #f8fafc;
+  width: 14px;
+  height: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .briefcase-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+}
+
+.package-text {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .package-text {
+    font-size: 18px;
+  }
+}
+
+.job-horizontal-line {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 2px;
+  background-color: #475569;
+  border-radius: 10px;
+  border: none;
+}
+
+.description-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0px;
+  margin-top: 16px;
+}
+@media screen and (min-width: 768px) {
+  .description-heading {
+    font-size: 16px;
+  }
+}
+.description-info {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 1.9;
+  margin: 0px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .description-info {
+    font-size: 14px;
+  }
+}
