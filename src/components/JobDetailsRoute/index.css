@@ -20,7 +20,7 @@
 }
 @media screen and (min-width: 768px) {
   .job-details-and-similar-jobs-container {
-    max-width: 950px;
+    max-width: 1100px;
   }
 }
 .job-details-item {
@@ -386,13 +386,14 @@
 .similar-jobs-list-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   padding: 0px;
 }
 .similar-jobs-heading {
   color: #f8fafc;
   font-family: 'Roboto';
   font-weight: 500;
-  font-size: 14px;
+  font-size: 22px;
   line-height: 1.6;
   margin-top: 16px;
 }
