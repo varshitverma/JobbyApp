@@ -42,25 +42,25 @@ class jobDetailsRoute extends Component {
     }
     const response = await fetch(url, options)
     if (response.ok) {
-      const fetechedData = await response.json()
-      const formatedData = {
-        companyLogoUrl: fetechedData.job_details.company_logo_url,
-        companyWebsiteUrl: fetechedData.job_details.company_website_url,
-        employmentType: fetechedData.job_details.employment_type,
-        id: fetechedData.job_details.id,
-        jobDescription: fetechedData.job_details.job_description,
-        skills: fetechedData.job_details.skills.map(eachSkill => ({
+      const fetchedData = await response.json()
+      const formattedData = {
+        companyLogoUrl: fetchedData.job_details.company_logo_url,
+        companyWebsiteUrl: fetchedData.job_details.company_website_url,
+        employmentType: fetchedData.job_details.employment_type,
+        id: fetchedData.job_details.id,
+        jobDescription: fetchedData.job_details.job_description,
+        skills: fetchedData.job_details.skills.map(eachSkill => ({
           name: eachSkill.name,
           imageUrl: eachSkill.image_url,
         })),
         lifeAtCompany: {
-          description: fetechedData.job_details.life_at_company.description,
-          imageUrl: fetechedData.job_details.life_at_company.image_url,
+          description: fetchedData.job_details.life_at_company.description,
+          imageUrl: fetchedData.job_details.life_at_company.image_url,
         },
-        location: fetechedData.job_details.location,
-        packagePerAnnum: fetechedData.job_details.package_per_annum,
-        rating: fetechedData.job_details.rating,
-        similarJobs: fetechedData.similar_jobs.map(eachJob => ({
+        location: fetchedData.job_details.location,
+        packagePerAnnum: fetchedData.job_details.package_per_annum,
+        rating: fetchedData.job_details.rating,
+        similarJobs: fetchedData.similar_jobs.map(eachJob => ({
           companyLogoUrl: eachJob.company_logo_url,
           employmentType: eachJob.employment_type,
           id: eachJob.id,
@@ -69,11 +69,11 @@ class jobDetailsRoute extends Component {
           rating: eachJob.rating,
           title: eachJob.title,
         })),
-        title: fetechedData.job_details.title,
+        title: fetchedData.job_details.title,
       }
 
       this.setState({
-        jobDetails: formatedData,
+        jobDetails: formattedData,
         apiStatus: apiStatusConstants.success,
       })
     } else {
